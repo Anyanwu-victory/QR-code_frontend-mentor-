@@ -1,0 +1,47 @@
+body {
+  display: grid;
+  justify-content: center;
+  background-color: rgb(168, 220, 230);
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+.container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  height: 33rem;
+  width: 20rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin: 100px;
+
+}
+
+div .code {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+img {
+  height: 20rem;
+  width: 18rem;
+  border-radius: 1rem;
+  justify-content: center;
+}
+.bold {
+  text-align: center;
+  font-weight: 700;
+}
+
+.faint {
+  text-align: center;
+  font-weight: 50;
+  opacity: 40%;
+  font-size: small;
+}
+.attribution {
+  text-align: center;
+}
